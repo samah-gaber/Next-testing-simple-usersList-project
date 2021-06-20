@@ -1,0 +1,38 @@
+{
+  "name": "userslist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "axios": "^0.21.1",
+    "babel-jest": "^27.0.1",
+    "bootstrap": "^5.0.0-beta3",
+    "formik": "^2.2.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.1",
+    "next": "10.2.0",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^10.4.9",
+    "@testing-library/user-event": "^13.1.9",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "redux-mock-store": "^1.5.4"
+  }
+}

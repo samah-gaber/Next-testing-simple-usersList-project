@@ -1,0 +1,42 @@
+.auth_page {
+  justify-content: center !important;
+  margin: 10px auto 50px;
+}
+.normal_page {
+  justify-content: flex-end;
+  border-bottom: 1px solid #ddd;
+  margin: 10px auto 80px;
+}
+.normal_page .logo {
+  margin-right: auto;
+}
+.btn {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logout_btn {
+  background-color: rgb(226, 97, 45);
+}
+.logout_btn:hover {
+  background-color: rgb(187, 78, 35);
+}
+.login_btn {
+  background-color: purple;
+}
+.login_btn:hover {
+  background-color: rgb(92, 3, 92);
+}
+.user_name_container {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+}
+.user_name {
+  margin-right: 20px;
+  color: darkslategray;
+  font-weight: bold;
+}
